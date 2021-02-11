@@ -21,6 +21,8 @@ Exercise
 
 # The Results
 
+## AWS Connect Phone Number: +1 415-967-0970
+
 > 1. Create a Lambda that converts phone numbers to vanity numbers and save the best 5 resulting vanity numbers and the caller's number in a DynamoDB table. 
 
 "Best" is defined as you see fit - explain your thoughts.
