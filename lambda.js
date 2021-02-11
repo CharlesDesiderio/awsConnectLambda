@@ -121,7 +121,7 @@ const lambda = (number) => {
   let newNumber = number.slice(-7)
 
   // A kepyad to match the buttons on your phone.
-  let keypad = [0, 1, 'abc', 'def', 'ghi', 'jkl', 'mno', 'pqrs', 'tuv', 'wxyz']
+  let keypad = ['a', 'a', 'abc', 'def', 'ghi', 'jkl', 'mno', 'pqrs', 'tuv', 'wxyz']
   let results = []  
 
   // Define our recursive function; it takes in the index (starting at the end and moving down) and the current result string (defaulting to an empty string)
@@ -210,6 +210,6 @@ const lambda = (number) => {
 }
 
 // First call of the function; on AWS Lambda this will be called through Connect and the number will be passed in through the event.
-lambda('1225544787')
+lambda('1225544187')
 
 module.exports = {lambda}
